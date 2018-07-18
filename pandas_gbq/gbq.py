@@ -152,7 +152,7 @@ class GbqConnector(object):
 
     def __init__(self, project_id, reauth=False,
                  private_key=None, auth_local_webserver=False,
-                 dialect='legacy', location=None):
+                 dialect='standard', location=None):
         from google.api_core.exceptions import GoogleAPIError
         from google.api_core.exceptions import ClientError
         from pandas_gbq import auth
